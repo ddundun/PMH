@@ -41,7 +41,7 @@ class ArrayUtil {
     }
     public static void print(int[] a) {
         /* 배열 a 출력 */
-        print(int[] a);
+
     }
 }
 public class StaticEx {
@@ -52,4 +52,4 @@ public class StaticEx {
         int[] array2 = {3, 6, -1, 100, 77};
         int[] array3 = ArrayUtil.concat(array1, array2);
         ArrayUtil.print(array3);
-    }
+    }}
