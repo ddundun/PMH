@@ -29,8 +29,6 @@ public class Q4 {
 
         Scanner scan = new Scanner(System.in);
         System.out.println("두 정수와 연산자를 입력하시오.");
-        int num1 = scan.nextInt();
-        int num2 = scan.nextInt();
-        String mu = scan.nextLine();
+
     }
 }
