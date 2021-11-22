@@ -15,6 +15,12 @@ public class Point implements Cloneable {
         this.ypos = ypos;
     }
 
+    @Override
+    public boolean equals(Object o) {
+        if (this.xpos == ((Point)o).xpos && this.ypos ==((Point)o).ypos) return true;
+        else return false;
+    }
+
     //오버라이드 메서드 클론
     @Override
     protected Object clone() throws CloneNotSupportedException {

@@ -13,8 +13,16 @@ public class Rectangle implements Cloneable{
 //        return super.clone();
 //    }
 
+
     @Override
-    protected Rectangle clone() throws CloneNotSupportedException {
+    public boolean equals(Object o) {
+        if (this.lowerRight == ((Rectangle) o).lowerRight &&
+                this.upperLeft == ((Rectangle)o).upperLeft ) return true;
+        else return false;
+
+    }
+    @Override
+    protected Object clone() throws CloneNotSupportedException {
 //        Rectangle 대신 Object ->    r2= (Rectangle)r1.clone();
 //        Rectangle 쓰면  r2= r1.clone(); 가능
         Rectangle r1 = (Rectangle) super.clone();

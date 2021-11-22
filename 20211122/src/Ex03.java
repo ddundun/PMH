@@ -20,5 +20,8 @@ public class Ex03 {
         System.out.println(p3);
         p1.setYpos(20);
         System.out.println(p3);
+
+        System.out.println(p1.equals(p2));
+        System.out.println(p1.equals(p3));
     }
 }

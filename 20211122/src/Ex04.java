@@ -20,5 +20,11 @@ public class Ex04 {
         System.out.println("r2 출력시작");
         System.out.println("r2.lr"+r2.lowerRight);
         System.out.println("r2.ul"+r2.upperLeft);
+
+        r2.lowerRight.setXpos(9); //r2를바꿈
+
+
+        System.out.println(r1.equals(r2));
+
     }
 }
